@@ -1,0 +1,17 @@
+from tkinter import *
+root=Tk()
+root.geometry("344x233")
+label1=Label(root,text="Email")
+label1.grid(row=0,sticky="e")
+label2=Label(root,text="Password")
+label2.grid(row=1,sticky="e")
+entry=Entry(root)
+entry1=Entry(root)
+entry.grid(row=0,column=1)
+entry1.grid(row=1,column=1)
+check=Checkbutton(root,text="Remember me on this computer")
+button=Button(root,text="submit")
+check.grid(column=1)
+button.grid(column=1)
+
+root.mainloop()

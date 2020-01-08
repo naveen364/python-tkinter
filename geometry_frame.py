@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("344x233")
+label=Label(root,text="hello")
+label.pack()
+label1=Label(root,text="Email")
+label1.grid(row=1,sticky="e")
+label2=Label(root,text="Password")
+label2.grid(row=2,sticky="e")
+root.mainloop()

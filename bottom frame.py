@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+topframe=Frame(root)
+topframe.pack()
+bottomframe=Frame(root)
+bottomframe.pack(side=BOTTOM)
+root.geometry("344x233")
+label=Label(root,text="hello",fg="red",bg="cyan")
+label.pack()
+root.mainloop()
